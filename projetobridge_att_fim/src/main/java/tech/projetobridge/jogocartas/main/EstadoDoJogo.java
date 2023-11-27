@@ -1,0 +1,17 @@
+package tech.projetobridge.jogocartas.main;
+
+public enum EstadoDoJogo {
+    INICIANDO_JOGO,
+    DISTRIBUINDO_CARTAS,
+    SUA_VEZ_DE_JOGAR,
+    PUXANDO_CARTA_P1,
+    PENSANDO_NA_JOGADA_P1,
+    BATALHA_P1,
+    FINALIZANDO_JOGADA,
+    VEZ_DO_OPONENTE,
+    PUXANDO_CARTA_P2,
+    PENSANDO_NA_JOGADA_P2,
+    BATALHA2,
+    FINALIZANDO_RODADA,
+    FINALIZANDO_JOGO
+}
